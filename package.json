@@ -1,0 +1,18 @@
+{
+  "name": "starry-gfm",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "lint": "tsc",
+    "typingCheck": "tsx script.ts"
+  },
+  "dependencies": {
+    "@types/node": "18.16.19",
+    "@wooorm/starry-night": "2.1.0",
+    "@wooorm/starry-night-2.0": "npm:@wooorm/starry-night@2.0.0",
+    "hast-util-to-html": "8.0.4",
+    "tsx": "3.12.7",
+    "typescript": "5.1.6"
+  }
+}
