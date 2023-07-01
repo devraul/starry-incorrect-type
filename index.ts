@@ -4,14 +4,14 @@ import { toHtml } from "hast-util-to-html";
 import etc20 from "@wooorm/starry-night-2.0/lang/etc.js";
 import etc from "@wooorm/starry-night/lang/etc.js";
 
-import hiddenMan20 from "@wooorm/starry-night-2.0/lang/hidden.manref.js";
-import hiddenMan from "@wooorm/starry-night/lang/hidden.manref.js";
+import hiddenMan20 from "@wooorm/starry-night-2.0/lang/hidden.manref.js"; // missing
+import hiddenMan from "@wooorm/starry-night/lang/hidden.manref.js"; // missing
 
 import sourceDiff20 from "@wooorm/starry-night-2.0/lang/source.diff.js";
 import sourceDiff from "@wooorm/starry-night/lang/source.diff.js";
 
 import sourceGfm20 from "@wooorm/starry-night-2.0/lang/source.gfm.js";
-import sourceGfm from "@wooorm/starry-night/lang/source.gfm.js"; // error
+import sourceGfm from "@wooorm/starry-night/lang/source.gfm.js"; // missing
 
 const starryNight = await createStarryNight([etc, sourceDiff, sourceGfm]);
 
